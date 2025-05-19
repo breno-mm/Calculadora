@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="telaCalculadora">
+  <grid id="27dc6" binding="initPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="700"/>
+    </constraints>
+    <properties>
+      <maximumSize width="650" height="700"/>
+      <minimumSize width="500" height="700"/>
+      <preferredSize width="600" height="850"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="5386d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="788f" class="javax.swing.JButton" binding="bt_C">
+            <constraints/>
+            <properties>
+              <label value="C"/>
+              <preferredSize width="50" height="50"/>
+              <text value="C"/>
+            </properties>
+          </component>
+          <component id="f20cb" class="javax.swing.JButton" binding="bt_porc">
+            <constraints/>
+            <properties>
+              <preferredSize width="50" height="50"/>
+              <text value="%"/>
+            </properties>
+          </component>
+          <component id="814c1" class="javax.swing.JButton" binding="bt_MC">
+            <constraints/>
+            <properties>
+              <focusable value="true"/>
+              <font size="9" style="1"/>
+              <label value="MC"/>
+              <preferredSize width="50" height="50"/>
+              <text value="MC"/>
+              <toolTipText value=""/>
+              <verifyInputWhenFocusTarget value="true"/>
+            </properties>
+            <clientProperties>
+              <hideActionText class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+          <component id="42111" class="javax.swing.JButton" binding="bt_MA">
+            <constraints/>
+            <properties>
+              <font size="9" style="1"/>
+              <label value="MA"/>
+              <preferredSize width="50" height="50"/>
+              <text value="MA"/>
+            </properties>
+          </component>
+          <component id="b00dd" class="javax.swing.JButton" binding="bt_MPlus">
+            <constraints/>
+            <properties>
+              <font size="9" style="1"/>
+              <opaque value="true"/>
+              <preferredSize width="50" height="50"/>
+              <text value="M+"/>
+            </properties>
+          </component>
+          <component id="81a36" class="javax.swing.JButton" binding="bt_MR">
+            <constraints/>
+            <properties>
+              <font size="9" style="1"/>
+              <opaque value="true"/>
+              <preferredSize width="50" height="50"/>
+              <text value="MR"/>
+            </properties>
+          </component>
+          <component id="2d10d" class="javax.swing.JButton" binding="bt_7">
+            <constraints/>
+            <properties>
+              <label value="7"/>
+              <preferredSize width="50" height="50"/>
+              <text value="7"/>
+            </properties>
+          </component>
+          <component id="7410a" class="javax.swing.JButton" binding="bt_8">
+            <constraints/>
+            <properties>
+              <label value="8"/>
+              <preferredSize width="50" height="50"/>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="c6d7d" class="javax.swing.JButton" binding="bt_9">
+            <constraints/>
+            <properties>
+              <label value="9"/>
+              <preferredSize width="50" height="50"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="2612a" class="javax.swing.JButton" binding="bt_4">
+            <constraints/>
+            <properties>
+              <label value="4"/>
+              <preferredSize width="50" height="50"/>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="d5095" class="javax.swing.JButton" binding="bt_5">
+            <constraints/>
+            <properties>
+              <label value="5"/>
+              <preferredSize width="50" height="50"/>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="a16c4" class="javax.swing.JButton" binding="bt_6">
+            <constraints/>
+            <properties>
+              <label value="6"/>
+              <preferredSize width="50" height="50"/>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="55310" class="javax.swing.JButton" binding="bt_1">
+            <constraints/>
+            <properties>
+              <preferredSize width="50" height="50"/>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="f4755" class="javax.swing.JButton" binding="bt_2">
+            <constraints/>
+            <properties>
+              <preferredSize width="50" height="50"/>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="35edf" class="javax.swing.JButton" binding="bt_3">
+            <constraints/>
+            <properties>
+              <preferredSize width="50" height="50"/>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="52304" class="javax.swing.JButton" binding="bt_0">
+            <constraints/>
+            <properties>
+              <preferredSize width="50" height="50"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="26ada" class="javax.swing.JButton" binding="bt_virg">
+            <constraints/>
+            <properties>
+              <preferredSize width="50" height="50"/>
+              <text value=","/>
+            </properties>
+          </component>
+          <component id="e9a39" class="javax.swing.JButton" binding="bt_apagar">
+            <constraints/>
+            <properties>
+              <icon value="icons/excluir.png"/>
+              <label value=""/>
+              <preferredSize width="50" height="50"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="d00ba" class="javax.swing.JTextField" binding="inputDisplay">
+        <constraints border-constraint="North"/>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="Courier 10 Pitch" size="48" style="1"/>
+          <horizontalAlignment value="11"/>
+          <margin top="3" left="11" bottom="3" right="8"/>
+          <preferredSize width="62" height="100"/>
+          <requestFocusEnabled value="false"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <grid id="ebebc" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="5">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="87b7b" class="javax.swing.JButton" binding="bt_plus">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <preferredSize width="50" height="50"/>
+              <text value="+"/>
+            </properties>
+          </component>
+          <component id="c4e87" class="javax.swing.JButton" binding="bt_sub">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <preferredSize width="50" height="50"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="51f0a" class="javax.swing.JButton" binding="bt_div">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <label value="/"/>
+              <preferredSize width="50" height="50"/>
+              <text value="/"/>
+            </properties>
+          </component>
+          <component id="e0cf6" class="javax.swing.JButton" binding="bt_mult">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <label value="X"/>
+              <preferredSize width="50" height="50"/>
+              <text value="X"/>
+            </properties>
+          </component>
+          <component id="26802" class="javax.swing.JButton" binding="bt_resultado">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <font name="Courier 10 Pitch" size="48" style="1"/>
+              <name value=""/>
+              <text value="="/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
